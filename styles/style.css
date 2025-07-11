@@ -62,3 +62,47 @@ body {
 .stay-focused:hover {
   background: #3730A3;
 }
+/* Action Section */
+.action-section {
+  max-width: 1200px;
+  margin: 80px auto;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.action-text {
+  max-width: 45%;
+}
+
+.action-text h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.action-text p {
+  color: #666;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.action-text button {
+  padding: 12px 24px;
+  background: #4F46E5;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.action-text button:hover {
+  background: #3730A3;
+}
+
+.action-image img {
+  max-width: 500px;
+  border-radius: 20px;
+}
